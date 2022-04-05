@@ -8,7 +8,8 @@ const NosotrosPage = (props) => {
                     Lorem Lorem Lorem Lorem Lorem LoremLorem Lorem Lorem
                     Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
                 </p>
-                <p>parrafo 2: Lorem Lorem Lorem Lorem Lorem Lorem
+                <p>lorem
+                    parrafo 2: Lorem Lorem Lorem Lorem Lorem Lorem
                     Lorem Lorem Lorem Lorem Lorem LoremLorem Lorem Lorem
                     Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
                 </p>
