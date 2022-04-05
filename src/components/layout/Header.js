@@ -4,7 +4,7 @@ const Header = (props) => {
         <header>
             <div className="holder">
                 <div className="logo">
-                    <img src="images/logo.png" width="100"
+                    <img src='img/logogestoria.jpeg' width="100"
                         alt="Gestoria Mata" />
                     <h1>Gestoria Mata</h1>
 

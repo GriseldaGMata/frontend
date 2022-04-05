@@ -3,7 +3,7 @@ const HomePage = (props) => {
     return (
         <main className="holder">
             <div className="homeimg">
-                <img src="images/home/img01.jpg" alt="avion" />
+                <img src="img/home/oficina2.jpg" alt="foto oficina" />
             </div>
             <div className="columnas">
                 <div className="bienvenidos left">

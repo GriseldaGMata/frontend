@@ -17,8 +17,8 @@ const NosotrosPage = (props) => {
             <h2>Staff</h2>
             <div className="personas">
                 <div className="persona">
-                    <img src="images/nosotros/nosotros1.jpg" width="75" alt="Juan" />
-                    <h5>Juan Gomez</h5>
+                    <img src="img/nosotros/yo.jpeg" width="75" alt="Griselda" />
+                    <h5> Griselda De la Mata</h5>
                     <h6>Gerente general</h6>
                     <p>parrafo personal: Lorem ipsum
                                                 Lorem Lorem Lorem Lorem Lorem Lorem
