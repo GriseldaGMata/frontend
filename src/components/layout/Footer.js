@@ -2,7 +2,7 @@ import React from 'react';
 const Footer = (props) =>{
     return (
         <footer>
-            <p>Derechos reservados Gestoria Mata </p>
+            <p>Diseñado por Griselda R. G. de la Mata - derechos reservados; año 2022 </p>
         </footer>
     );
 }

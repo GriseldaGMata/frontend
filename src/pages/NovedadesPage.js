@@ -6,7 +6,8 @@ const NovedadesPage = (props) => {
             <h3>titulo</h3>
             <h4>subtitulo</h4>
             <p>cuerpo</p>
-        </section>
+        </section>        
     );
 }
+
 export default NovedadesPage;
