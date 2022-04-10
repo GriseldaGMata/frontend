@@ -1,0 +1,35 @@
+nav {
+    /* espacio detalle secciones */
+    background-color: #088828;
+    margin-bottom: 2em;
+  }
+  nav ul {
+    /* nombres de mi lista */
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  nav ul li {
+    /* layout de mi lista en horizontal */
+    display: inline-block;
+    width: 16.3%;
+  }
+  
+  nav ul li a {
+    /* posicion y decoracion de mis nombres de lista */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+  }
+  
+  nav ul li a:hover {
+    /* color de fondo al pasar x encima */
+    background-color: rgba(207, 228, 21, 0.3);
+  }
+  nav ul li a.activo {
+    /* Destaco Seccion en la que me encuentro */
+    background-color: #a3cc0d;
+  }

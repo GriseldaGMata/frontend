@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+  }
+
+/* inicio zona home */
+h2 {
+  color: #09121d; 
+  font-weight: 400;
+  margin: 0 0 1em;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+

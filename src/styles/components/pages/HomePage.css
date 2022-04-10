@@ -1,0 +1,60 @@
+h2 {
+    color: #09121d;
+    font-weight: 400;
+    margin: 0 0 1em;
+  }
+  
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  .homeimg {
+    margin-bottom: 1.5em;
+    size: small;
+  }
+  .columnas {
+    overflow: hidden;
+    /* background-color: aqua; */
+  }
+  
+  .bienvenidos,
+  .testimonios {
+    box-sizing: border-box;
+  }
+  .bienvenidos {
+    width: 75%;
+    padding-right: 2em;
+  }
+  .testimonios {
+    width: 25%;
+  }
+  .testimonio {
+    background-color: rgb(82, 202, 88);
+    padding: 0.5em;
+  }
+  .testimonio,
+  .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+    display: block;
+  }
+  .testimonio,
+  .autor {
+    font-size: 0.7em;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+  }
+  /* fin zona home */
+  
+  .columnas {
+   
+    box-sizing: border-box;
+    /* background-color: aqua; */
+  }
+  .parrafo{
+      text-align: justify;
+  }

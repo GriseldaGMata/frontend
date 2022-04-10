@@ -1,0 +1,22 @@
+/* inicio novedades */
+.novedades p {
+    width: 100%;
+  padding: 0.3em;
+  box-sizing: border-box;
+}
+
+.novedades h3 {
+  color: #09121d;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 1em;
+  border-bottom: 1px solid #2e64a1;
+  padding-bottom: 0.5em;
+}
+.novedades h4 {
+  color: #09121d;
+  font-size: 1em;
+}
+
+/* fin novedades */
