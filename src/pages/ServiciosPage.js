@@ -6,30 +6,31 @@ function ServiciosPage(props) {
         <section className="holder">
             <div className="servicio">
                 <h2>Nuestros servicios</h2>
-                <div>
+                <div className='secciones'>
                     <h3>Asesoria integral</h3>
-                    <img src="img/servicios/asesoria.jpg" width="100" alt="asesoria" />
-                    <p className='servicioinfo'>parrafo 1: Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Impedit animi soluta necessitatibus vero molestiae provident 
-                    tenetur hic, perspiciatis nesciunt incidunt nulla ratione exercitationem temporibus 
-                    omnis, quam, sint est 
-                    </p>
+                    <section>
+                    <img src="img/servicios/gestionintegral.jpg" width="120" alt="asesoria" />
+                    <p className='servicioinfo'>Nuestro equipo de profesionales 
+                    multidisciplinarios podra brindarte un servicio integral.
+                    </p>                        
+                    </section>
                 </div>
-                <div>
+                <div className='secciones'>
                     <h3>Servicio personalizado</h3>
-                    <img src="img/servicios/charla.jpg" width="100" alt="charla cliente" />
-                    <p className='servicioinfo'>parrafo 2: Lorem Lorem Lorem Lorem Lorem Lorem
-                        Lorem Lorem Lorem Lorem Lorem LoremLorem Lorem Lorem
-                        Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
-                    </p>            
+                    <section>
+                    <img src="img/servicios/analizartucaso.jpg" width="120" alt="charla cliente" />
+                    <p className='servicioinfo'>En todo momento adecuaremos las soluciones a tus necesidades, 
+                    respetando siempre tu opinion. Seras parte activa en todo momento.
+                    </p>
+                    </section>         
                 </div>
-                <div>
+                <div className='secciones'>
                     <h3>Brindamos soluciones</h3>
-                    <img  src="img/servicios/soluciones.jpg" width="100" alt="soluciones" />
-                    <p className='servicioinfo'>parrafo 3: Lorem Lorem Lorem Lorem Lorem Lorem
-                        Lorem Lorem Lorem Lorem Lorem LoremLorem Lorem Lorem
-                        Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
-                    </p>                   
+                    <section>
+                    <img  src="img/servicios/ceo.jpg" width="120" alt="soluciones" />
+                    <p className='servicioinfo'>Nuestro equipo diseñara y aplicara las mejores soluciones respetando siempre ti opinion.
+                    </p>
+                    </section>                  
                 </div>
 
             </div>

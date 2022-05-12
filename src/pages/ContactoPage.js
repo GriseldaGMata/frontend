@@ -4,7 +4,8 @@ import React from "react";
 const ContactoPage = (props) => {
     return (
         <main className="holder">
-            <div className="columna contacto">
+        <div className="columna">
+            <div className="columnaizquierda">
                 <h2>Complete el siguiente formulario</h2>
                 <form action="" method="" className="formulario">
                     <p>
@@ -27,8 +28,9 @@ const ContactoPage = (props) => {
                         <input type="submit" value="Enviar" />
                     </p>
                 </form>
-              </div>
-              <div className="columna datos">
+            </div>
+       
+           <div className="columnaderecha">
                   <h2>Otras vias de contacto</h2>
                   <p>Si lo desea puede contactarnos utilizando los siguientes medios:</p>
                   <ul>
@@ -40,8 +42,10 @@ const ContactoPage = (props) => {
                       <li>instagram</li>
                       <li>Nuestras oficinas en: calle Siempre viva 12345-Malaga</li>
                   </ul>
-              </div>
-        </main>
+            </div>
+
+        </div>     
+       </main>
     );
 }
 export default ContactoPage;

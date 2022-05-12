@@ -1,18 +1,29 @@
 header {
     /* espacio logo */
-    background-color: #17ad44;
+    background-color: none;
     padding: 1em 0;
     font-family: "Raleway",sans-serif;
+    margin-left: 10px;
+    margin-right: 10 px;
+    text-align: center;
+    color: rgb(18,4,50); 
+       
   }
   
-  header h1 {
+  
+  /* ubicacion{
+    margin-left: 10px;
+    margin-right: 10 px;
+  } */
+
+  /* header h1 { */
     /* texto encabezado */
-    color: white;
-    font-size: 3em;
-    font-style: italic;
-    font-weight: 100;
-    display: inline-block;
+    /* color: black; */
+    /* font-size: 2em; */
+    /* font-style: italic; */
+    /* font-weight: 200; */
+    /* display: inline-block;
     position: relative;
     bottom: 50px;
-    font-family: "Raleway",sans-serif;
-  }
+    font-family: "Raleway",sans-serif; */
+  /* } */

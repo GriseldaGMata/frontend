@@ -1,36 +1,32 @@
 /* inicio zona servicios */
 .servicio {
-    border: 1px solid gray;
-    border-radius: 0.7em;
+    border: 3px solid rgb(88, 43, 195);
+    border-radius: 1em;
     margin: 1em 0;
     padding: 1em;
-    overflow: hidden;
+    overflow:hidden;
   }
   .servicioinfo {
-    width: 90%;
-    padding-bottom: 0.5em;
-    line-height: 1.2em;
-    color:#09121d;
+    width: 100%;
+    /* color:#09121d; */
     font-size: 1.2em;
-    font-style: italic;
-    margin: 0 0 1em;
-    border-bottom: 1px solid #05b905;
-    padding-bottom: 0.5em;
+    /* font-style: italic; */
+    margin-left: 10 px;
+    padding-bottom: 1 px;
     border-radius: 0.8em;
    }
-  
- 
-  .servicioimg {
-    border-radius: 0.8em;
-    width: 200px;
+  .secciones{
+    line-height: 3em;
+    border-bottom: 1.5px solid #05b905;
   }
-  
+   
   .servicio:nth-child(even) img {
     float: right;
-    margin: 0 0 0 1em;
+    margin: 0 0 0 2em;
   }
   .servicio:nth-child(even) .info {
     float: left;
+    margin: 0 0 0 1em;
   }
   
   .servicio:nth-child(odd) img {
@@ -39,8 +35,17 @@
   }
   .servicio:nth-child(odd) .info {
     float: right;
+    margin: 0 1em 0 0;
+  }
+  h3{
+    font-weight: 5em;
+    color: #05b905;
   }
 
   
+  /* .servicioimg {
+    border-radius: 0.8em;
+    width: 200px;
+  } */
   
   /* fin zona servicios */

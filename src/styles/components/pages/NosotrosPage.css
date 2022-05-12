@@ -1,80 +1,84 @@
 /* inicio  zona nosotros */
 .historia {
     font-size: 1em;
+    font-family: "Raleway",sans-serif;
   }
   
   .staff{
     padding-top: 30px;
+    font-family: "Raleway",sans-serif;
   }
   .personas {
     overflow: hidden;
+    font-family: "Raleway",sans-serif;
     }
   
   .persona {
     width:30%;
     height: 300px;
-    border: 1px solid gray;
-    border-radius: 0.25em;
+    border: 3px solid rgb(88,43,195);
+    border-radius: 0.5em;
     float: left;
     margin-left: 2.25%;
     box-sizing: border-box;
     text-align: center;
+    font-family: "Raleway",sans-serif;
   }
   .persona img {
-    border-radius: 35%;
-    box-shadow: 2px solid green;
+    border-radius: 15%;
+    /* box-shadow: 2px solid green; */
     margin: 0.8em 0 1em;
     max-width: 70%;
     height: 150px;
     align-items: center;
+    font-family: "Raleway",sans-serif;
   
   }
   .persona h5,
   .persona h6 {
     text-align: center;
     font-weight: normal;
-    color: #09121d;
+    /* color: #09121d; */
     margin: 0;
+    font-family: "Raleway",sans-serif;
   }
   .persona h5 {
     font-size: 0.9em;
+    font-family: "Raleway",sans-serif;
   }
   .persona h6 {
     font-size: 0.8em;
     font-style: italic;
+    font-family: "Raleway",sans-serif;
   }
   .persona p {
     font-size: 0.7em;
     color: #444;
     margin: 0 1em 1em;
+    font-family: "Raleway",sans-serif;
   }
   .persona:first-child {
     margin-left: 0;
   }
   
-  /* fin zona nosotros */
-  /* inicio galeria */
-
  .foto {
-  float: left;
+  /* float: left;
   width: 20%;
-  margin: 1em 0 1em 2.5%;
-  border: 1px solid rgb(10, 54, 6);
-  padding: 0.3em;
-  box-sizing:border-box;
+  margin: 1em 0 1em 2.5%; */
+  border: 1px solid #05b905;
+  /* padding: 0.3em;
+  box-sizing:border-box; */
     
 }
 
-
+/* 
 .foto:nth-child(5n + 1) {
   margin-left: 0;
-}
+} */
 
-.fotopic{
+/* .fotopic{
   height: 200px;
   text-align: center;
   padding-top: 10%;
-}
+} */
 
-
-/* fin galeria */

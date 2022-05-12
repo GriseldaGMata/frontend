@@ -1,22 +1,27 @@
 /* inicio novedades */
 .novedades p {
-    width: 100%;
+  width: 100%;
   padding: 0.3em;
   box-sizing: border-box;
 }
 
 .novedades h3 {
-  color: #09121d;
-  font-size: 1.2em;
+  /* color: #09121d; */
+  font-size: 1em;
+  font-family: "Raleway",sans-serif;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   margin: 0 0 1em;
-  border-bottom: 1px solid #2e64a1;
+  /* border-bottom: 2px solid #05b905; */
   padding-bottom: 0.5em;
 }
 .novedades h4 {
-  color: #09121d;
-  font-size: 1em;
+  /* color: #09121d; */
+  font-size: 0.8em;
+  font-family: "Raleway",sans-serif;
+}
+hr{
+  color: rgb(18,4,50);
 }
 
 /* fin novedades */

@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #05b905;
 }
 
 @keyframes App-logo-spin {
@@ -41,6 +41,7 @@ body {
   font-family: "Raleway",sans-serif;
   font-size: 16px;
   line-height: 20px;
+  color: rgb(18,4,50); 
 }
 .holder {
   max-width: 960px;
@@ -49,10 +50,23 @@ body {
 
 /* inicio zona home */
 h2 {
-  color: #09121d; 
+  color: rgb(18,4,50); 
+  font-weight: 600;
+  margin: 0 0 1em;
+  font-family: "Raleway",sans-serif;
+}
+h3 {
+  color: rgb(18,4,50); 
   font-weight: 400;
   margin: 0 0 1em;
+  font-family: "Raleway",sans-serif;
 }
+
+h4 h5 p a ul li ol section div {
+  color: rgb(18,4,50); 
+  font-family: "Raleway",sans-serif;
+}
+
 .left {
   float: left;
 }

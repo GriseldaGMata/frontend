@@ -21,9 +21,10 @@ const HomePage = (props) => {
                     <h2>Testimonios</h2>
                     <div className="testimonio">
                         <span className="cita">Super claros.</span>
+                        <span> - </span>
                         <span> Inscripcion de matrimonio </span>
                         <span> - </span>
-                        <span className="autor">Esteban Garcia - Bahia Blanca</span>
+                        <span className="autor">Julieta Abril - Bahia Blanca</span>
                     </div>
                 </div>
                 
@@ -31,12 +32,13 @@ const HomePage = (props) => {
                    
                     <div className="testimonio">
                         <span className="cita">Solucionaron todo!</span>
+                        <span> - </span>
                         <span> Relocacion de pais </span>
                         <span> - </span>
-                        <span className="autor">Carolina Sotto - CABA</span>
+                        <span className="autor">Lucas Hernan - CABA</span>
                     </div>
                 </div>
-                <img className='imghome' src="img/home/oficina2.jpg" alt="foto oficina" width="300px" height="300px" />
+                <img className='imghome' src="img/home/team.jpg" alt="fototeam" width="350px" height="250px" />
             </div>
         </main>
     );
