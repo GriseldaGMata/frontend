@@ -2,8 +2,8 @@
 .container{
   border-style: none ;
   display: flex;
-  align-content: space-between;
-  justify-content: space-around;
+  /* align-content: space-between; */
+  justify-content: space-between;
   align-items: flex-start;
   /* background-color: #05b905; */
   
@@ -24,20 +24,22 @@ color: white;
 }
 
 .derecha{
-
+  color: rgb(18, 4, 50);
   margin: 2%;
   margin-top: 2%;
-  color: white;
+  /* color: white; */
  }
 .formulario label {
     vertical-align: top;
     width: 50%;
     display: inline-block;
+    color: rgb(18, 4, 50);
   } 
 
  .formulario textarea {
     resize: none;
     height: 5em;
+    color: rgb(18, 4, 50);
   }
 
   /* .formulario .acciones {
@@ -51,10 +53,12 @@ color: white;
    color:white ;
    font-style: italic;
    text-align: center;
+   color: rgb(18, 4, 50);
  }
   
  h2 p ul{
   font-family: "Raleway",sans-serif;
+  color: rgb(18, 4, 50);
  }
  ul{
    list-style: none;
