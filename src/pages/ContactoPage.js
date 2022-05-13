@@ -1,33 +1,71 @@
 import '../styles/components/pages/ContactoPage.css';
 
-import React from "react";
+import React, { useState } from "react";
+import axios from 'axios';
+
 const ContactoPage = (props) => {
+    // abro manejo del estado de envio de email
+    const initialForm = {
+        nombre: '',
+        email: '',
+        telefono: '',
+        mensaje: '',
+    }
+
+
+    const [sending, setSending] = useState(false);
+    const [msg, setMsg] = useState('');
+    const [formData, setFormData] = useState(initialForm);
+
+    const handlechange = e => {
+        const { name, value } = e.target;
+        setFormData(oldData => ({
+            ...oldData,
+            [name]: value //formadinamica
+        }));
+    }
+    const handleSubmit = async e => {
+        e.preventDefault();
+        setMsg('');
+
+        setSending(true);
+        const response = await axios.post('http://localhost:3000/api/contacto', formData);
+        setSending(false);
+
+        setMsg(response.data.message);
+        
+        if (response.data.error === false) {
+            setFormData(initialForm);
+        }
+    }// cierro manejo del estado de envio de email
     return (
         <main className="holder">
             <div class="container">
                 <div className="izquierda">
                     <h2>Complete el siguiente formulario</h2>
-                    <form action="" method="" className="formulario">
+                    <form action="/contacto" method="post" className="formulario" onSubmit={handleSubmit}>
                         <p>
                             <label>Nombre completo:</label>
-                            <input type="text" name="nombre" />
+                            <input type="text" name="nombre" value={formData.nombre} onChange={handlechange} />
                         </p>
                         <p>
                             <label>Email:</label>
-                            <input type="text" name="email" />
+                            <input type="text" name="email" value={formData.email} onChange={handlechange} />
                         </p>
                         <p>
                             <label>Telefono o movil:</label>
-                            <input type="text" name="telefono" />
+                            <input type="text" name="telefono" value={formData.telefono} onChange={handlechange} />
                         </p>
                         <p>
                             <label>Comentario:</label>
-                            <textarea name="mensaje"></textarea>
+                            <textarea name="mensaje" value={formData.mensaje} onChange={handlechange}></textarea>
                         </p>
+
+                        {sending ? <p className="boton">Enviando mensaje</p> : null}
+                        {msg ? <p className="boton">{msg}</p> : null}
+
                         <p className="centrar">
                             <input type="submit" value="Enviar: Nos contactaremos a la brevedad, agradecemos su contacto" className='boton' />
-
-
                         </p>
                     </form>
                 </div>
