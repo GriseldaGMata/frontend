@@ -1,64 +1,59 @@
 /* inicio contacto */
-.columna {
-   overflow: hidden;
+.container{
+  border-style: none ;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* background-color: #05b905; */
+  
+
+}
+.box{
+ margin: 3%;
+ width: 50%;
+ align-items: auto;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ background-color: rgb(88, 43, 195);
   }
 
-  .columnaizquierda
-  .columnaderecha{
-    width: 50%;
-    box-sizing:border-box;
-    }
+.izquierda{
+margin: 2%;
+color: white;
+}
 
-  /* .columna .columnaizquierda {
-    /* border-right: 1px solid rgb(88,43,195); */
-  /* } */ */
-  .columna .columnaderecha p {
-    font-size: 0.5em;
-    /* margin-left: 55%; */
-    /* border-left: 2px solid #a3cc0d; */
+.derecha{
 
-  }
- .columnaderecha {
-    width: 65%;
-    padding-right: 2em;
-  }
-  .columnaizquierda{
-    width: 35%;
-  }
-  .columna .columnaderecha ul li {
-    font: size 0.8em;
-    
-  }
-  .formulario label {
+  margin: 2%;
+  margin-top: 2%;
+  color: white;
+ }
+.formulario label {
     vertical-align: top;
-    /* width: 30%; */
+    width: 50%;
     display: inline-block;
-  }
-  .formulario input .formulario textarea {
-    background-color: rgb(118, 79, 224);
-    border-radius: 2px;
-    border: 1px solid #999;
-    padding: 0.4em 0.6em;
-    font-size: 0.8em;
-    color: rgb(24, 159, 9);
-    /* width: 40%; */
-  }
-  
-  .formulario input[type="submit"] {
-    background-color: #a3cc0d;
-    box-shadow: #a3cc0d;
-    color: rgb(2, 31, 24);
-    font-size: 1em;
-    width: auto;
-    float: left;
-  }
-  
-  .formulario textarea {
+  } 
+
+ .formulario textarea {
     resize: none;
-    height: 10em;
+    height: 5em;
   }
-  .formulario .acciones {
+
+  /* .formulario .acciones {
     text-align: center;
-  }
+  }  */
+ .boton{
+   color: rgb(18, 4, 50);
+   background-color: #05b905;
+ }
+ h2{
+   color:white ;
+   font-style: italic;
+   text-align: center;
+ }
   
-  /* fin contacto */
+ h2 p ul{
+  font-family: "Raleway",sans-serif;
+ }
+ 
