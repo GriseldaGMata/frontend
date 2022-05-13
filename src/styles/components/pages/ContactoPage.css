@@ -63,4 +63,10 @@ color: white;
  ul{
    list-style: none;
  }
+ .enviando{
+  color: rgb(18, 4, 50);
+  background-color: white;
+  font-style: italic;
+  font-family: "Raleway",sans-serif;
+}
  

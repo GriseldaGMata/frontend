@@ -61,8 +61,8 @@ const ContactoPage = (props) => {
                             <textarea name="mensaje" value={formData.mensaje} onChange={handlechange}></textarea>
                         </p>
 
-                        {sending ? <p className="boton">Enviando mensaje</p> : null}
-                        {msg ? <p className="boton">{msg}</p> : null}
+                        {sending ? <p className="enviando">Enviando mensaje.</p> : null}
+                        {msg ? <p className="enviando">{msg}</p> : null}
 
                         <p className="centrar">
                             <input type="submit" value="Enviar: Nos contactaremos a la brevedad, agradecemos su contacto" className='boton' />
