@@ -20,7 +20,7 @@ const NosotrosPage = (props) => {
             <div className="personas">
             <h2>Staff</h2>
                 <div className="persona">
-                    <img className='foto'src="img/nosotros/yo.jpeg" width="100" alt="Griselda" />
+                    <img className='foto'src="/img/nosotros/ella.jpg" width="120" alt="Griselda" />
                     <h5> Griselda </h5>
                     <h6>CEO Founder</h6>
                     <p></p>
@@ -33,7 +33,7 @@ const NosotrosPage = (props) => {
                         para conocerte. Te estamos buscando.</p>
                 </div>
                 <div className="persona">
-                    <img className='foto'src="/img/nosotros/co_founder.jpg" width="120" alt="Co-founder" />
+                    <img className='foto'src="/img/nosotros/cofounder.jpg" width="120" alt="Co-founder" />
                     <h5> Juana Martina</h5>
                     <h6>Directora co-founder</h6>
                     <p></p>
